@@ -1,0 +1,88 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Titillium Web', sans-serif;
+  color: black;
+  line-height: 1,2;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+td h3, td p {
+    text-align: left;
+    padding-left: 15px;
+}
+
+a {
+  color: #afafaf;
+  text-decoration: none;
+}
+
+a:hover {
+  color:  #000000;
+}
+
+ul {
+  list-style: none
+}
+
+table {
+  border-collapse: collapse;
+}
+
+
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #3ac1f2;
+  border-radius: 10px;
+  padding: 32px;
+  margin:24px -2px;
+  box-shadow: 0.5px 0.5px 1px #3ac1f2;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.img-profile {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.img-width {
+  width: 150px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 8px;
+}
+
+.lewagon:hover {
+  color: #e2001c;
+}
+
+#name {
+  color: #3ac1f2;
+}
+
+#linkedin:hover{
+  color: #0078b9;
+}
