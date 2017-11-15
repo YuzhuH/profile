@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #f1f1f1;
   font-family: 'Titillium Web', sans-serif;
   color: black;
   line-height: 1,2;
@@ -47,13 +47,11 @@ table {
 }
 
 .card {
-  border-style: solid;
   border-width: 1px;
-  border-color: #3ac1f2;
   border-radius: 10px;
   padding: 32px;
   margin:24px -2px;
-  box-shadow: 0.5px 0.5px 1px #3ac1f2;
+  box-shadow: 0.5px 0.5px 1px #f1f1f1;
 }
 
 .text_center {
